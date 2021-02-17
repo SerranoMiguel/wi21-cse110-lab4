@@ -38,34 +38,34 @@ reassign a constant variable.
 attempting to reassign a constant.
 
 13. 
-a. Accessing the value of the name property in the student object.
-b. Accessing the value of the Grad Year property in the student object
-c. Calling the function for the greeting property in the student object
-d. Accessing the name property of the object in the Favorite Teacher property in student
-e. Access the first index in the array of the courseLoad property of the student object
+a. Accessing the value of the name property in the student object. \
+b. Accessing the value of the Grad Year property in the student object \
+c. Calling the function for the greeting property in the student object \
+d. Accessing the name property of the object in the Favorite Teacher property in student \
+e. Access the first index in the array of the courseLoad property of the student object \
 
 14.
 a. '3’ + 2 = 32 - When adding it, it reads the 3 as a string and simply appends the 2 to it. \
 b. '3’ - 2 = 1 - Since substracting is not accepted for strings, 3 is seen as a number, math is done. \
-c.  3 + null = 3 -  null is 0, so 3 + 0 = 3 
-d. '3' + null = 3null - 3 is viewed as a string, so null is appeneded to it 
-e. true + 3 = 4 - true has a binary value of 1 and 1 + 3 = 4 
-f. false + null = 0 - false has a binary value of 0 so does null, so 0 + 0 = 0 
-g. "3" + undefined = 3undefined -  3 is read as a string so "undefined" is appeneded to it 
-h. "3" - undefined = NaN - Since subtracting is not part of string operations, it should be math. 
-However, you can't subtract undefined from 3, so it is NaN - Not a Number. 
+c.  3 + null = 3 -  null is 0, so 3 + 0 = 3 \
+d. '3' + null = 3null - 3 is viewed as a string, so null is appeneded to it \
+e. true + 3 = 4 - true has a binary value of 1 and 1 + 3 = 4 \
+f. false + null = 0 - false has a binary value of 0 so does null, so 0 + 0 = 0 \
+g. "3" + undefined = 3undefined -  3 is read as a string so "undefined" is appeneded to it \
+h. "3" - undefined = NaN - Since subtracting is not part of string operations, it should be math. \
+However, you can't subtract undefined from 3, so it is NaN - Not a Number. \
 
 15. Comparison
-a. '2' > 1 = true - The string, 2, is casted to an integer as is greater than 1.
-b. '2' < '12' = false - String to string comparison is lexicographical.
-c. 2 == '2' = true - The string, 2, is casted to an int, so they are the same value.
-d. 2 === '2' = false - They are different types, so it fails that test.
-e. true == 2 = false - These are seen as two different values.
-f. true == Boolean(2) = true - if true = 1, then true + true = 2. True && True = True
+a. '2' > 1 = true - The string, 2, is casted to an integer as is greater than 1. \
+b. '2' < '12' = false - String to string comparison is lexicographical. \
+c. 2 == '2' = true - The string, 2, is casted to an int, so they are the same value. \
+d. 2 === '2' = false - They are different types, so it fails that test. \
+e. true == 2 = false - These are seen as two different values. \
+f. true == Boolean(2) = true - if true = 1, then true + true = 2. True && True = True \
 
-16. The difference between the == and === operators is that == is simply equal to while
- === is equal value and equal type, so ==== is more picky to get a true answer.
+16. The difference between the == and === operators is that == is simply equal to while \
+ === is equal value and equal type, so ==== is more picky to get a true answer. \
 
-17. Based on the code snippet, "How are you?" gets printed. In 15e, we explained why
- true == 2 is false, so it fails that one. It then checks else if(2). 2 = true && true.
+17. Based on the code snippet, "How are you?" gets printed. In 15e, we explained why \
+ true == 2 is false, so it fails that one. It then checks else if(2). 2 = true && true. \
  true && true pass the gate, so it logs "How are you?"
