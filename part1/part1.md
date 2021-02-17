@@ -45,23 +45,25 @@ d. Accessing the name property of the object in the Favorite Teacher property in
 e. Access the first index in the array of the courseLoad property of the student object
 
 14. Arithmetic
-a. 
-b. 
-c. 
-d. 
-e. 
-f.
-g. 
-h. 
+a. '3’ + 2 = 32 - When adding it, it reads the 3 as a string and simply appends the 2 to it.
+b. '3’ - 2 = 1 - Since substracting is not accepted for strings, 3 is seen as a number, math is done
+c.  3 + null = 3 -  null is 0, so 3 + 0 = 3
+d. '3' + null = 3null - 3 is viewed as a string, so null is appeneded to it
+e. true + 3 = 4 - true has a binary value of 1 and 1 + 3 = 4
+f. false + null = 0 - false has a binary value of 0 so does null, so 0 + 0 = 0
+g. "3" + undefined = 3undefined -  3 is read as a string so "undefined" is appeneded to it
+h. "3" - undefined = NaN - Since subtracting is not part of string operations, it should be math.
+However, you can't subtract undefined from 3, so it is NaN - Not a Number.
 
 15. Comparison
-a. 
-b. 
-c. 
-d. 
-e. 
-f.
+a. '2' > 1 = true - 
+b. '2' < '12' = false - 
+c. 2 == '2' = true - 
+d. 2 === '2' = false - 
+e. true == 2 = false - 
+f. true == Boolean(2) = true - 
 
-16. The difference between the == and === operators
+16. The difference between the == and === operators is that == is simply equal to while
+ === is equal value and equal type, so ==== is more picky to get a true answer.
 
 17. Look at code snippet.
