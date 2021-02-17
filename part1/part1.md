@@ -66,4 +66,6 @@ f. true == Boolean(2) = true - if true = 1, then true + true = 2. True && True =
 16. The difference between the == and === operators is that == is simply equal to while
  === is equal value and equal type, so ==== is more picky to get a true answer.
 
-17. Look at code snippet.
+17. Based on the code snippet, "How are you?" gets printed. In 15e, we explained why
+ true == 2 is false, so it fails that one. It then checks else if(2). 2 = true && true.
+ true && true pass the gate, so it logs "How are you?"
