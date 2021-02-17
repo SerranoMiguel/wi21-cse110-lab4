@@ -38,7 +38,7 @@ reassign a constant variable.
 attempting to reassign a constant.
 
 13. 
-a. Accessing the value of the name property in the student object
+a. Accessing the value of the name property in the student object.
 b. Accessing the value of the Grad Year property in the student object
 c. Calling the function for the greeting property in the student object
 d. Accessing the name property of the object in the Favorite Teacher property in student
