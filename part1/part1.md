@@ -56,12 +56,12 @@ h. "3" - undefined = NaN - Since subtracting is not part of string operations, i
 However, you can't subtract undefined from 3, so it is NaN - Not a Number.
 
 15. Comparison
-a. '2' > 1 = true - 
-b. '2' < '12' = false - 
-c. 2 == '2' = true - 
-d. 2 === '2' = false - 
-e. true == 2 = false - 
-f. true == Boolean(2) = true - 
+a. '2' > 1 = true - The string, 2, is casted to an integer as is greater than 1.
+b. '2' < '12' = false - String to string comparison is lexicographical.
+c. 2 == '2' = true - The string, 2, is casted to an int, so they are the same value.
+d. 2 === '2' = false - They are different types, so it fails that test.
+e. true == 2 = false - These are seen as two different values.
+f. true == Boolean(2) = true - if true = 1, then true + true = 2. True && True = True
 
 16. The difference between the == and === operators is that == is simply equal to while
  === is equal value and equal type, so ==== is more picky to get a true answer.
