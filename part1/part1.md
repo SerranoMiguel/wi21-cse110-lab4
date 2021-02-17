@@ -45,8 +45,8 @@ d. Accessing the name property of the object in the Favorite Teacher property in
 e. Access the first index in the array of the courseLoad property of the student object
 
 14.
-a. '3’ + 2 = 32 - When adding it, it reads the 3 as a string and simply appends the 2 to it. 
-b. '3’ - 2 = 1 - Since substracting is not accepted for strings, 3 is seen as a number, math is done. 
+a. '3’ + 2 = 32 - When adding it, it reads the 3 as a string and simply appends the 2 to it. \
+b. '3’ - 2 = 1 - Since substracting is not accepted for strings, 3 is seen as a number, math is done. \
 c.  3 + null = 3 -  null is 0, so 3 + 0 = 3 
 d. '3' + null = 3null - 3 is viewed as a string, so null is appeneded to it 
 e. true + 3 = 4 - true has a binary value of 1 and 1 + 3 = 4 
