@@ -37,3 +37,31 @@ reassign a constant variable.
 12. If we call discountPrices([100, 200, 300], .5), the program will not work due to the error of 
 attempting to reassign a constant.
 
+13. 
+a. Accessing the value of the name property in the student object
+b. Accessing the value of the Grad Year property in the student object
+c. Calling the function for the greeting property in the student object
+d. Accessing the name property of the object in the Favorite Teacher property in student
+e. Access the first index in the array of the courseLoad property of the student object
+
+14. Arithmetic
+a. 
+b. 
+c. 
+d. 
+e. 
+f.
+g. 
+h. 
+
+15. Comparison
+a. 
+b. 
+c. 
+d. 
+e. 
+f.
+
+16. The difference between the == and === operators
+
+17. Look at code snippet.
