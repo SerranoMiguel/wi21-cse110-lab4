@@ -78,7 +78,7 @@ f. true == Boolean(2) = true - if true = 1, then true + true = 2. True && True =
  
  Q20 in another file
  
- 21. The output of the code is:
+ 21. The output of the code is: \
  1 \
  4 \
  3 \
