@@ -9,16 +9,7 @@ let statistics = {
  
 
 for (key in statistics) {
-  if(statistics[key] %2 != 0 ||
+  if(statistics[key] %2 != 0 || key.substring(0,1) === "r"  ){
+    console.log(statistics[key]);
+  }
 }
-// using a loop, iterate through it and print out the value of the property
-// of the property starts w/ letter r or if that property is odd
-/* so, print value of property if:
-   -property starts with "r" OR
-   - property value is odd
-   - Should be printing:
-    21
-    45
-    5
-    2
-   */
