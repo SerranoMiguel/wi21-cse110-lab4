@@ -75,3 +75,13 @@ f. true == Boolean(2) = true - if true = 1, then true + true = 2. True && True =
  19. Calling modifyArray([1,2,3], callback) will yield newArr = [6,8,10]
  It reaches this because doSomething increases their values by 2, making it [3,4,5] \
  the function then doubles that, which is why we reach values of [6,8,10]
+ 
+ Q20 in another file
+ 
+ 21. The output of the code is:
+ 1 \
+ 4 \
+ 3 \
+ 2 \ 
+ 1 and 4 are printed first because there is no delay. 3 comes next because a setTimeout of 0 is the smallest possible delay. \ 
+ 2 comes in next since it had a whole second of delay.
