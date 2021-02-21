@@ -84,4 +84,4 @@ f. true == Boolean(2) = true - if true = 1, then true + true = 2. True && True =
  3 \
  2 \
  1 and 4 are printed first because there is no delay. 3 comes next because a setTimeout of 0 is the smallest possible delay. \
- 2 comes in next since it had a whole second of delay.
+ 2 comes in last since it had a whole second of delay.
