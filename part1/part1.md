@@ -70,6 +70,7 @@ f. true == Boolean(2) = true - if true = 1, then true + true = 2. True && True =
  true == 2 is false, so it fails that one. It then checks else if(2). 2 = true && true. \
  true && true pass the gate, so it logs "How are you?"
  
+ 
  19. Calling modifyArray([1,2,3], callback) will yield newArr = [6,8,10]
  It reaches this because doSomething increases their values by 2, making it [3,4,5] \
  the function then doubles that, which is why we reach values of [6,8,10]
